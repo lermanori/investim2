@@ -1,6 +1,17 @@
 const colors = require('vuetify/es5/util/colors').default
 
+const routerBase = {
+  router: {
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/investim2/' : '/',
+
+  },
+}
+
 module.exports = {
+  generate: {
+    dir: 'docs'
+  },
+  ...routerBase,
   mode: 'universal',
   /*
    ** Headers of the page
