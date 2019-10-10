@@ -1,0 +1,12 @@
+@mixin section1_mixin($hero_text_size, $subtitle_text_size) {
+
+
+  .hero {
+    font-size: $hero_text_size;
+  }
+
+  .action-btn {
+    font-size: $subtitle_text_size;
+
+  }
+}

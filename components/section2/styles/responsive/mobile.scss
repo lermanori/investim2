@@ -1,0 +1,9 @@
+@include for-mobile-only {
+  $hero_text_size: 20px;
+  $subtitle_text_size: 14px;
+  @include section2_mixin_text_size($hero_text_size, $subtitle_text_size);
+  $hero_margin: 14% 0 20% 0;
+  $subtitle_margin: 0 12vw;
+  $container_margin: -12% 0 -50% 0;
+  @include section2_mixin_margin($hero_margin, $subtitle_margin, $container_margin);
+}

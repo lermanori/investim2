@@ -1,0 +1,24 @@
+@mixin section2_mixin_text_size($hero_text_size, $subtitle_text_size) {
+  .hero {
+    font-size: $hero_text_size;
+  }
+
+  .subheader {
+    font-size: $subtitle_text_size;
+
+  }
+}
+
+@mixin section2_mixin_margin($hero_margin, $subtitle_margin, $container_margin) {
+  .hero {
+    margin: $hero_margin;
+  }
+
+  .subheader {
+    margin: $subtitle_margin;
+  }
+
+  .container {
+    margin: $container_margin;
+  }
+}
