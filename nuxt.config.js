@@ -1,4 +1,4 @@
-const colors = require('/node_modules/vuetify/es5/util/colors').default
+const colors = require('node_modules/vuetify/es5/util/colors').default
 
 const routerBase = {
   router: {
